@@ -1,0 +1,11 @@
+*.pyc
+# setup.py files
+*.egg-info
+dist
+build
+
+.coverage
+.tox
+
+# Sphinx build directory
+docs/_build
