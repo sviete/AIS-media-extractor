@@ -13,20 +13,20 @@ git clone https://github.com/sviete/AIS-media-extractor
 go to the AIS-media-extractor foleder and install the dependecies with
 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
 ### Run
 
 ```
-python3 -m ais_media_extractor
+python -m ais_media_extractor
 ```
 
 ### PM2
 
 ```
-pm2 start "python3 -m ais_media_extractor"
+pm2 start "python -m ais_media_extractor --host localhost -p 9191"
 ```
 
 ### API
