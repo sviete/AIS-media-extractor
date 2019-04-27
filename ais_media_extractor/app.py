@@ -159,7 +159,10 @@ def info():
 @route_api('play')
 def play():
     result = flatten_result(get_result())
-    return redirect(result[0]['url'])
+    result = {'url': result[0]['url']}
+    return jsonify(result)
+    # in case of redirection
+    # return redirect(result[0]['url'])
 
 
 @route_api('extractors')
