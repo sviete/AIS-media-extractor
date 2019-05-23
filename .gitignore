@@ -6,6 +6,7 @@ build
 
 .coverage
 .tox
+.idea
 
 # Sphinx build directory
 docs/_build
