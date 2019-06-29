@@ -13,7 +13,7 @@ git clone https://github.com/sviete/AIS-media-extractor
 go to the AIS-media-extractor foleder and install the dependecies with
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt --user
 ```
 
 
