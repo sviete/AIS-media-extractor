@@ -19,7 +19,7 @@ setup(
 
     install_requires=[
         'Flask',
-        'youtube_dl >= 2019.08.02',
+        'youtube_dl >= 2019.08.13',
     ],
 
     classifiers=[
