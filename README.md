@@ -26,7 +26,7 @@ python -m ais_media_extractor
 ### PM2
 
 ```
-pm2 start "python -m ais_media_extractor --host localhost -p 9191" --name YouTubeDL
+pm2 start "python -m ais_media_extractor --host <SERVER_IP> -p 9191" --name YouTubeDL
 ```
 
 ### API
