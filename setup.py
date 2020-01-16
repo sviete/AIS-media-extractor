@@ -14,7 +14,7 @@ setup(
     entry_points={
         "console_scripts": ["ais-media-extractor = ais_media_extractor.server:main"]
     },
-    install_requires=["Flask", "youtube_dl >= 2019.12.25"],
+    install_requires=["Flask", "youtube_dl >= 2020.01.15"],
     classifiers=[
         "Topic :: Multimedia :: Video",
         "Topic :: Internet :: WWW/HTTP :: WSGI",
